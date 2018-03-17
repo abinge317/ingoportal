@@ -1,0 +1,176 @@
+@charset "utf-8";
+html,body{margin:0;padding:0;font:100%/150%"arial","Hiragino Sans GB","Microsoft Yahei",sans-serif;color:#333;background:#fcfafe;overflow:hidden;}
+html, body,div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, code,del, dfn, em, img, ins, kbd, q, samp,small, strong, sub, sup, var,b, i,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, figcaption, figure,footer, header, hgroup, menu, nav, section, summary,time, mark,audio, video{margin:0;padding:0;}
+h1,h2,h3,h4,h4,h6{font-weight:normal;font-size:100%;}
+he,cite,code,dfn,th,var,address{text-align:left;font-weight:normal;font-style:inherit;}
+img{border:none;margin:0;padding:0; line-height:0; display:block;}
+ul,li{list-style:none;padding:0;margin:0;}
+dl{display:block;}
+blockquote{font-style:normal; color:#000;}
+.clear{clear:both;font-size:0;line-height:0;height:0;margin:0;padding:0;}
+.clearfix{clear:both;font-size:0;line-height:0;height:0;margin:0;padding:0;display:inline-block;}  /* for IE/Mac */
+.clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0}
+.row{ margin:0; padding:0; line-height:0; height:10px;}
+.red{ color:#fa4949;}
+ul{margin:0;padding:0;list-style:none}
+a,a:link,a:hover{text-decoration:none}
+a,a:link{color:#333;}
+a:hover{color:#fd7b00; }
+input{ font-size:90%;}
+#content{width:100%;position:absolute;top:45px;letter-spacing:.05em;bottom:50px;}	
+/*底部图标*/
+.icon{background:url("icon.png")/*tpa=http://tyslate.com/m/css/icon.png*/ no-repeat; background-size:cover;}
+.icon_foot,.header-icon,.icon_foot2{height:22px;width:22px;}
+.header-icon{ margin:13px;}
+.icon_foot{margin:8px auto -1px auto;}
+.icon_menu{background-position:-285px 0px;}
+.return{ background-position:-110px 0;}
+.icon_home{ background-position:1px 0;}
+.icon_tel{ background-position:-308px 0;}
+.icon_share{ background-position:-212px 0;}
+.icon_location{ background-position:-235px 0;}
+.icon_mark{ background-position:-108px 0;}
+.icon_sms{ background-position:-186px 0;}
+
+/*右侧隐藏栏*/
+#pagemenu{border-right:1px solid #ccc; position:absolute; width:46%; top:47px; bottom:0; z-index:11;  background:rgba(0,0,0,0.8);color:#FFF;}
+.menubar{ letter-spacing:3px;width:100%;padding-top:8px; text-align:center; padding-bottom:8px; background:rgba(0,0,0,0.1); border-bottom:rgba(0,0,0,0.2) 1px solid ; }
+#pagemenu li{ padding:0.4em 0; border-bottom:rgba(0,0,0,0.2) 1px solid ; color:#FFF; border-top:rgba(255,255,255,0.2) 1px solid ;text-indent:1em;}
+#pagemenu dt{ text-align:center;}
+#pagemenu li a{ color:#FFF;}
+#pagemenu blockquote{ border-bottom:rgba(0,0,0,0.2) 1px solid ; padding-bottom:0.4em; }
+#pagemenu dl{ border-top:rgba(255,255,255,0.2) 1px solid ; padding-top:0.4em;}
+#pagemenu dt{ line-height:40px;}
+
+/*查看更多*/
+.indexdh{width:96%; margin:5px auto; border:1px solid #ccc; background:#f8f2e4;}
+.indexdh li a{ width:28%; float:left;display:block;padding:8px; text-align:center; color:#a1827b; font-size:90%; }
+.indexdh li a:hover{ color:#fff; background:#a1827b;}
+.bor-right{border-right:1px solid #ccc;}
+.bor-right2{border-right:1px solid #ccc; border-bottom:1px solid #ccc;}
+.bor-bottom{border-bottom:1px solid #ccc;}
+
+.main-title{height:40px;line-height:55px;width:100%; margin:0 auto;text-indent:25px; background:url("../images/titlebg.png")/*tpa=http://tyslate.com/m/images/titlebg.png*/ 0px center no-repeat;}
+.main-title a{margin-left:60%;font-size:80%;}
+
+/*头部*/
+#page, #page1, body{width: 100%;position: absolute;top: 0;bottom: 0; background:#FFF;}
+.header{ height:45px; width:100%; background:#33a5bf; box-shadow:3px 3px 2px rgba(20%,20%,40%,0.5); position:relative; z-index:100;}
+.header .logo{ background:url("images/logo.png")/*tpa=http://tyslate.com/m/css/images/logo.png*/ no-repeat; height:40px; width:190px; margin:0 auto; background-size:100%;}
+.header .title{font-size:17px; font-weight:bold; line-height:260%;color:#fff;letter-spacing:.1em; text-align:center; margin-left:20px;}
+.header .left{position: absolute;top: 0;left: 0;}
+.header .right{float:right;position: absolute;top:0;right:0;}
+
+/*产品页*/
+.Product{width:98%; margin:0 auto;}
+.Product li{font-size:80%;line-height:20px;color:#fffdfd;float:left;width:30%;margin:1.5%;text-align:center;background-color:#FFF; border-radius:5px; position:relative;}
+.Product li a{  display: block;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width:100%;word-break: keep-all;}
+.Product img{width:98%; height:85px;margin: 0 0 0px 0;}
+.Product li a span{ height:20px; background:rgba(0,0,0,0.4); width:100%; position:absolute; bottom:0px; left:0px; color:#FFF;}
+
+/*专利*/
+.Product1{width:98%; margin:0 auto;}
+.Product1 li{font-size:80%;line-height:20px;color:#fffdfd;float:left;width:30%;margin:1.5%;text-align:center;background-color:#FFF; border-radius:5px; position:relative;}
+.Product1 li a{  display: block;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width:100%;word-break: keep-all;}
+.Product1 img{width:100%; height:145px;margin: 0 0 0px 0;}
+.Product1 li a span{ height:20px; background:rgba(0,0,0,0.4); width:100%; position:absolute; bottom:0px; left:0px; color:#FFF;}
+
+.index_three{width:98%; margin:-1% auto;}
+.index_three li{width:28%;font-size:80%;margin:1%;padding:7px 5px;text-align: center;float:left; background:#ACACAC}
+.index_three li a{color:#fff;}
+
+/*产品展示
+-----------------------------------------------------------------------------------------------------------*/
+.box{width:94%; margin:10px auto;padding:2.5%; font-size:80%; color:#FFF;}
+.box img{width:100%;min-width:100%;}
+.box hr{height:1px;border:0;padding:0;margin:0 auto 10px auto;background:#ccc;}
+.box h3{font-size:140%;color:#2f2e42;letter-spacing:.1em;width:100%;margin:0px auto; text-align:center}
+.box h4{color:#272727; font-size:100%;margin: 0 0 10px 0; text-align:center; width:100%;}
+.box .lxwm li{ padding:5px 0;}
+#piclist li img{width:100%; min-width:100%; margin-bottom:10px;}
+
+/*底部*/
+.footer{background:#216f95; height:50px; width:100%; position:absolute; bottom:0; border-top:1px solid #e6e4e4;}
+.footer li{font-size:80%;width:25%; float:left;}
+.footer,.footer li,.footer li a{text-align:center;color:#fff;}
+.footer li strong{font-weight:normal;}
+.abc{ width:60%; margin:0 auto;}
+.abc:hover{ width:60%; background:rgba(255,255,255,0.3);border-radius:5px;}
+
+/*yy*/
+.crm{border-bottom:1px solid #ccc;}
+.crm input{border:none;}
+.crm li{padding:6px;border-bottom:1px solid #ccc;}
+.crm li .rese{border:none;background:none;color:#999;}
+.crm li .rese1{border:none;background:#c2c2c2;color:#fff;}
+.crm .rese2{background:#fff;overflow-x:hidden;overflow-y:hidden;color:#999;width:86%;height:100px;margin:0 10px;padding:10px;}
+.crm .re-ban{text-align:center;color:#fff;padding:10px 0;width:95%;border:none;background:#ec6217;margin:10px auto;display:compact;}
+.p_enter{ background:rgba(0,0,0,0.85); width:60%; padding:0.3em 0; color:#464646; text-align:center; margin: 10px 20%; border-radius:5px; border:rgba(255,255,255,0.2) 1px solid; position:absolute; bottom:70px; letter-spacing:0.2em;}
+.p_enter2{background: #7e4da0;width: 40%;padding: 0.3em 0;color: #fff;text-align: center;margin: 10px 30%;display: inline-block;}
+.enter-btn{ width:60%; position:absolute; bottom:60px; left:20%; text-align:center;padding:5px; border-radius:5px; color:#fff;background: #B5652A;}
+
+/*轮播*/
+#wrapper{width:100%;display:block;margin:0 auto;}
+#wrapper img{width:100%; margin:0 auto;}
+.swUl, .swUl > li {display:block; float:left;list-style:none;padding:0; margin:0; border-radius:50%; }
+.swUl {width:90px; bottom:15px;left:70%;z-index:1000;position: relative;}
+.swUl > li {text-indent:-9999em;width:5px; height:5px;background:rgba(0,0,0,0);border:rgba(255,255,255,1) 1px solid; overflow:hidden;margin:0 10px 0 0;border-radius:9px;}
+.swUl > li.active {background:#FFF;}
+.swUl > li:last-child {margin:0;}
+
+/*分享图标*/
+.fx{text-indent:100px;}
+.icon1{background:url("fx.png")/*tpa=http://tyslate.com/m/css/fx.png*/ no-repeat;background-size:45px 229px;}
+.icon_qq{background-position:30px 12px;}
+.icon_sina{background-position:30px -38px;}
+.icon_r{background-position:24px -90px;}
+.icon_k{background-position:30px -140px;}
+.icon_dou{background-position:30px -190px;}
+
+/*产品展示阴影*/
+.box-shadow{box-shadow:0px 0px 3px 1px rgba(0,0,0,0.1);
+-webkit-box-box-shadow:0px 0px 3px 1px rgba(0,0,0,0.1);
+-moz-box-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.2);}
+.text-shadow,.ct h6 a:hover{text-shadow:1px 1px 0 #444;}
+.text-shadow1{text-shadow:1px 1px 0 #fff; }
+
+/*翻页
+-----------------------------------------------------------------------------------------------------------*/
+.Page{width:95%;text-align:center;margin:15px auto;font-size:70%; color:#888}
+.btn-a{width:80px;color:#666666;display:inline-table;padding:5px 0;text-align:center; margin:0 20px;border-radius:.4em;-webkit-border-radius:.4em; font-size:12px;}
+.btn-a:link,.btn-a:hover{color:#666666 !important;background:#f3f3f3;}
+.btn-a{background:#e7e7e7;}
+
+/*首页大图标分类*/
+.bigicon{ width:100%; height:190px;  float:left;}
+.bigicon ul li{ width:30%; margin:5px 1.5%; height:80px;background-color:#33a5bf; float:left; text-align:center; color:#FFF;border-radius:5px;}
+.bigicon ul li a{ color:#FFF; font-weight:bold;}
+.bigicon ul li a img{ width:40%; margin:0 30%; height:50px; margin-top:1px;}
+/*三级分类*/
+.fourgrade{ width:98%; margin:0 1%; background-color:#FFF;position:relative;}
+.fgtitle{ height:30px; line-height:30px; vertical-align:middle; text-indent:10px; font-size:18px;width:40%; color:#FFF; background-color:#30b6e6;}
+.fg{ width:34px; height:30px; background:url("images/fgtitle.png")/*tpa=http://tyslate.com/m/css/images/fgtitle.png*/ no-repeat; position:absolute; left:39%; top:0;}
+.fgcontent{ padding:5px; border-left:#30b6e6 solid 3px; background:#FFF; float:left; width:100%;}
+.fgcontent ul li{ width:23%; float:left; height:20px; line-height:20px; text-align:center; vertical-align:middle; border-right:#666666 solid 1px; margin-top:5px;}
+.fgcontent ul li a{ font-size:12px;} 
+
+/*新闻列表*/
+.newstitle{border-bottom:dotted 3px #f90f0f;height:40px;background:#FFF; width:94%; margin:0 3%;}
+.newstitle ul li{ height:40px; text-align:center; float:left; width:25%;background:#FFF; line-height:40px;}
+.newstitle ul .selected{ border-bottom:#3cb878 solid 3px;}
+.newslist{width:100%; margin-top:3px;}
+.newslist li{background-color:#f7f9f8; height:45px;line-height:45px;background:url("icon-1.png")/*tpa=http://tyslate.com/m/css/icon-1.png*/ 96% 50% no-repeat; border-bottom:#e4e4e4 solid 1px; text-indent:25px;}
+.newslist li:hover{background-color:#5a5a5a;}
+.newslist li:hover a{ color:#FFF;}
+.newslist blockquote{width:85%;
+text-overflow:ellipsis;
+white-space:nowrap;
+-o-text-overflow:ellipsis;
+overflow: hidden;}
+#news li a img{ width:50px; height:50px; margin:5px 10px; float:left;}
+#pullUp,#more{width:90%;margin:25px auto;padding:8px 0;font-size:90%;background:#33a5bf;text-align:center;color:#fff;cursor: pointer;border-radius:5px; position:relative; font-size:18px;}
+.down{ height:30px; width:30px; background:url("icon-2.png")/*tpa=http://tyslate.com/m/css/icon-2.png*/ -78px -8px no-repeat; position:absolute; right:20%; top:0px;}
+/*产品类别*/
+.product_left li{text-indent:1em;text-indent:25px;}
+.product_left li a{  display: block;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width:85%;word-break: keep-all;}
+
