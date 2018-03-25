@@ -16,8 +16,38 @@ public class PortalApplication {
 		SpringApplication.run(PortalApplication.class, args);
 	}
 
-	@RequestMapping("/")
+	@RequestMapping(value={"/","index.html","index.htm"})
 	String index() {
 		return "index";
+	}
+
+	@RequestMapping("/list3.html")
+	String products() {
+		return "list3";
+	}
+
+	@RequestMapping("/list7.html")
+	String cases() {
+		return "list7";
+	}
+
+	@RequestMapping("/view2-1.html")
+	String aboutus() {
+		return "view2-1";
+	}
+
+	@RequestMapping("/view2-2.html")
+	String contactus() {
+		return "view2-2";
+	}
+
+	@RequestMapping("/list5.html")
+	String list5() { //板岩青石板列表
+		return "list5";
+	}
+
+	@RequestMapping("/view5-30.html")
+	String view5_30() { //板岩青石板
+		return "view5-30";
 	}
 }
