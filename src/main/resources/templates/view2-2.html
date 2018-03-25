@@ -2,9 +2,7 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <div th:replace="head::head"></div>
 <body>
-<div class="header">
     <div th:replace="header::header"></div>
-</div>
 
 <div class="sectionB">
     <div class="main">
@@ -12,19 +10,19 @@
 <div class="mainCon">
             <div class="mainConTitle">
                 <span class="mFont">联系我们</span>
-                <span class="mEnglish"> contact us </span>
+                <span class="mEnglish"> contact us</span>
                 <div class="position"><span>当前位置：</span><a href="index.htm" tppabs="http://tyslate.com/" title="首页">首页</a> > 联系我们</div>
             </div>
             <!-- end mainConTitle-->
             <div class="mainContect">
                 <div class="con">
-                    <p><span style="font-size: 20px;"><strong>九江天韵石材有限公司</strong></span></p>
-                    <p><span style="font-size: 20px;">联系人：宋经理</span></p>
-                    <p><span style="font-size: 20px;">手　机：</span><a href="javascript:if(confirm('http://tel:65535/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://tel:65535/'" tppabs="http://tel:65535/" target="_self" textvalue="13879298839" style="font-size: 20px; text-decoration: underline;"><span style="font-size: 20px;">13879298839</span></a></p>
-                    <p><span style="font-size: 20px;">电　话：</span><a href="tel:07928320639" style="font-size: 20px; text-decoration: underline;"><span style="font-size: 20px;">0792-8320639</span></a></p>
-                    <p><span style="font-size: 20px;">邮　箱：121060313@qq.com</span></p>
-                    <p><span style="font-size: 20px;">地　址：江西省九江市星子县横塘镇天韵石材厂</span></p>
-                    <p><iframe class="ueditor_baidumap" src="http://www.eiewz.cn/cpanel/ueditor/dialogs/map/show.html#center=115.894277,29.359162&zoom=15&width=530&height=340&markers=115.894277,29.359162&markerStyles=l,A" tppabs="http://www.eiewz.cn/cpanel/ueditor/dialogs/map/show.html#center=115.894277,29.359162&zoom=15&width=530&height=340&markers=115.894277,29.359162&markerStyles=l,A" frameborder="0" width="534" height="344"></iframe></p>
+                    <p><span style="font-size: 20px;"><strong><spna th:text="${basicInfo.companyName}">九江英格石业有限公司</spna></strong></span></p>
+                    <p><span style="font-size: 20px;">联系人：<span th:text="${basicInfo.companyOwner}">龚经理</span></span></p>
+                    <p><span style="font-size: 20px;">手　机：<a href="tel:18017331699" target="_self" textvalue="18017331699" style="font-size: 20px; text-decoration: underline;"><span style="font-size: 20px;"><span th:text="${basicInfo.telephone}">18017331699</span></span></a></p>
+                    <p><span style="font-size: 20px;">电　话：<a href="tel:07922643134" style="font-size: 20px; text-decoration: underline;"><span style="font-size: 20px;" th:text="${basicInfo.phone}">0792-2643134</span></a></span></p>
+                    <p><span style="font-size: 20px;">邮　箱：<span th:text="${basicInfo.email}">sales@ingoco.com</span></span></p>
+                    <p><span style="font-size: 20px;">地　址：<span th:text="${basicInfo.factoryAddress}">江西省九江市庐山市华林镇石材加工区</span></span></p>
+                    <p><iframe class="ueditor_baidumap" src="http://www.eiewz.cn/cpanel/ueditor/dialogs/map/show.html#center=115.939315,29.348884&zoom=15&width=530&height=340&markers=115.939315,29.348884&markerStyles=l,A" tppabs="http://www.eiewz.cn/cpanel/ueditor/dialogs/map/show.html#center=115.939315,29.348884&zoom=15&width=530&height=340&markers=115.939315,29.348884&markerStyles=l,A" frameborder="0" width="534" height="344"></iframe></p>
                 </div>
                 <!-- end con-->
             </div>
@@ -37,7 +35,8 @@
 </div>
 <!-- end sectionbg-->
 
-<div th:replace="footer::footer"></div>
+    <div th:replace="footer::footer"></div>
+    <div th:replace="main_im::im"></div>
 
 <script>
 var _hmt = _hmt || [];

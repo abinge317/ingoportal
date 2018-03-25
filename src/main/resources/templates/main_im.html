@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <div th:fragment="im" class="main-im"><!-- 代码 开始 -->
+        <div id="open_im" class="open-im">&nbsp;</div>
+        <div class="im_main" id="im_main">
+            <div id="close_im" class="close-im"><a href="javascript:void(0);" title="点击关闭">&nbsp;</a></div>
+            <a href="http://wpa.qq.com/msgrd?v=3&uin=71305811&site=qq&menu=yes" tppabs="http://wpa.qq.com/msgrd?v=3&uin=71305811&site=qq&menu=yes" target="_blank" class="im-qq qq-a" title="在线QQ客服">
+                <div class="qq-container"></div>
+                <div class="qq-hover-c"><img class="img-qq" th:src="@{images/kf/qq.png}" tppabs="http://tyslate.com/images/kf/qq.png"></div>
+                <span> QQ在线咨询</span>
+            </a>
+            <div class="im-tel">
+                <div>在线客服</div>
+                <div class="tel-num"><a target="_blank" title="点击这里给我发消息" href="http://wpa.qq.com/msgrd?v=3&uin=71305811&site=qq&menu=yes" tppabs="http://wpa.qq.com/msgrd?v=3&uin=71305811&site=qq&menu=yes"><img border="0" title="点击这里给我发消息" alt="点击这里给我发消息" th:src="@{images/wpa/button_11.gif}" tppabs="http://wpa.qq.com/pa?p=2:71305811:41"></a></div>
+                <div>微信扫一扫<br>手机打开</div>
+                <img  th:src="@{images/kf/api.jpg}" tppabs="http://ingoco.com/images/kf/api.jpg" width="100">
+            </div>
+        </div>
+    </div><!-- 代码 结束 -->
+</html>

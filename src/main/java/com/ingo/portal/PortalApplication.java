@@ -36,11 +36,6 @@ public class PortalApplication {
 		return "view2-1";
 	}
 
-	@RequestMapping("/view2-2.html")
-	String contactus() {
-		return "view2-2";
-	}
-
 	@RequestMapping("/list5.html")
 	String list5() { //板岩青石板列表
 		return "list5";

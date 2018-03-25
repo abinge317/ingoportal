@@ -1,51 +1,64 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-<div th:fragment="header">
-    <div class="topnbd">
-        <div class="top">
-            <div class="logo">
-                <a href="index.htm" tppabs="http://tyslate.com/" title="九江天韵石材有限公司"><img th:src="@{images/logo.png}" tppabs="http://tyslate.com/images/logo.png" alt="九江天韵石材有限公司"  ></a>
-            </div><!-- end logo-->
-        </div><!-- end top-->
-        <div  class="navgrp">
-            <div class="navbd">
-                <ul class="nav" id="nav">
-                    <li rel="index.html"><a href="index.html" tppabs="http://tyslate.com/index.html" title="网站首页">网站首页</a></li>
-                    <li rel="#"><a href="https://shop118073264.taobao.com/?spm=a230r.7195193.1997079397.2.D8wsuw" tppabs="https://shop118073264.taobao.com/?spm=a230r.7195193.1997079397.2.D8wsuw" target="_blank" title="在线商城">在线商城</a></li>
-                    <li rel="list3.html"><a href="list3.html" tppabs="http://tyslate.com/list3.html" title="产品中心">产品中心</a>
-                        <div id="navChild">
-                            <a href="list5.html" tppabs="http://tyslate.com/list5.html">板岩青石板</a><a href="list6.html" tppabs="http://tyslate.com/list6.html">板岩锈石板</a><a href="list11.html" tppabs="http://tyslate.com/list11.html">板岩绿石板</a><a href="list12.html" tppabs="http://tyslate.com/list12.html">板岩蘑菇石</a><a href="list13.html" tppabs="http://tyslate.com/list13.html">板岩马赛克</a><a href="list14.html" tppabs="http://tyslate.com/list14.html">乱行板</a><a href="list15.html" tppabs="http://tyslate.com/list15.html">墙面砖</a><a href="list16.html" tppabs="http://tyslate.com/list16.html">台阶石</a>                  </div>
-                    </li>
-                    <li rel="list7.html"><a href="list7.html" tppabs="http://tyslate.com/list7.html" title="工程案例">工程案例</a>
-                        <div id="navChild">
-                            <a href="list8.html" tppabs="http://tyslate.com/list8.html">家装案例</a><a href="list9.html" tppabs="http://tyslate.com/list9.html">工程案例</a><a href="list10.html" tppabs="http://tyslate.com/list10.html">生产现场</a>                  </div>
-                    </li>
-                    <li rel="view2-1.html"><a href="view2-1.html" tppabs="http://tyslate.com/view2-1.html" title="关于我们">关于我们</a></li>
-                    <li rel="list1.html"><a href="list1.html" tppabs="http://tyslate.com/list1.html" title="新闻动态">新闻动态</a></li>
-                    <li rel="message.html"><a href="message.html" tppabs="http://tyslate.com/message.html" target="_blank" title="在线留言">在线留言</a></li>
-                    <li rel="view2-2.html"><a href="view2-2.html" tppabs="http://tyslate.com/view2-2.html" title="联系我们">联系我们</a></li>
-                </ul>
-            </div><!-- end navbd-->
-        </div><!-- end navgrp-->
-    </div><!-- end topnbd-->
-    <div class="banner">
-        <div id="kinMaxShow">
-            <div><img src="uploadfile/201705/201705151105352682833.jpg" tppabs="http://tyslate.com/uploadfile/201705/201705151105352682833.jpg" /></div>
-            <div><img src="uploadfile/201705/201705031615557485283.jpg" tppabs="http://tyslate.com/uploadfile/201705/201705031615557485283.jpg" /></div>
-            <div><img src="uploadfile/201705/201705151105518876171.jpg" tppabs="http://tyslate.com/uploadfile/201705/201705151105518876171.jpg" /></div>
-        </div>
-    </div><!-- end banner-->
-    <div class="nsbg">
-        <div class="blue"></div>
-        <div class="nsbd">
-            <div class="toptel">
-                <div class="tel">服务热线：<span>18017331699</span></div>
-            </div><!-- end toptel-->
-            <div class="notice">
-                <div class="title">网站公告：</div>
-                <div class="noticenr"><marquee  onmouseover="this.stop()" onMouseOut="this.start()" scrollamount="2"  >九江英格石业有限公司，欢迎您的咨询！</marquee></div>
-            </div><!-- end notice-->
-        </div><!-- end nsbd-->
-    </div><!-- end nsbg-->
-</div> <!-- end header-->
+    <div th:fragment="header" class="header">
+        <div class="topnbd">
+            <div class="top">
+                <div class="logo">
+                    <a href="index.html" tppabs="http://tyslate.com/" title="九江英格石业有限公司"><img th:src="@{images/logo1.png}" tppabs="http://tyslate.com/images/logo.png" alt="九江英格石业有限公司"  ></a>
+                </div><!-- end logo-->
+            </div><!-- end top-->
+            <div  class="navgrp">
+                <div class="navbd">
+                    <ul class="nav" id="nav">
+                        <li rel="index.html"><a href="index.html" tppabs="http://tyslate.com/index.html" title="网站首页">网站首页</a></li>
+                        <li rel="#"><a href="https://shop118073264.taobao.com/?spm=a230r.7195193.1997079397.2.D8wsuw" tppabs="https://shop118073264.taobao.com/?spm=a230r.7195193.1997079397.2.D8wsuw" target="_blank" title="在线商城">在线商城</a></li>
+                        <li rel="list3.html"><a href="list3.html" tppabs="http://tyslate.com/list3.html" title="产品中心">产品中心</a>
+                            <div id="navChild">
+                                <a href="list5.html" tppabs="http://tyslate.com/list5.html">板岩青石板</a>
+                                <a href="list6.html" tppabs="http://tyslate.com/list6.html">板岩锈石板</a>
+                                <a href="list11.html" tppabs="http://tyslate.com/list11.html">板岩绿石板</a>
+                                <a href="list12.html" tppabs="http://tyslate.com/list12.html">板岩蘑菇石</a>
+                                <a href="list13.html" tppabs="http://tyslate.com/list13.html">板岩马赛克</a>
+                                <a href="list14.html" tppabs="http://tyslate.com/list14.html">乱行板</a>
+                                <a href="list15.html" tppabs="http://tyslate.com/list15.html">墙面砖</a>
+                                <a href="list16.html" tppabs="http://tyslate.com/list16.html">台阶石</a>
+                            </div>
+                        </li>
+                        <li rel="list7.html"><a href="list7.html" tppabs="http://tyslate.com/list7.html" title="工程案例">工程案例</a>
+                            <div id="navChild">
+                                <a href="list8.html" tppabs="http://tyslate.com/list8.html">家装案例</a>
+                                <a href="list9.html" tppabs="http://tyslate.com/list9.html">工程案例</a>
+                                <a href="list10.html" tppabs="http://tyslate.com/list10.html">生产现场</a>
+                            </div>
+                        </li>
+                        <li rel="view2-1.html"><a href="view2-1.html" tppabs="http://tyslate.com/view2-1.html" title="关于我们">关于我们</a></li>
+                        <li rel="list1.html"><a href="list1.html" tppabs="http://tyslate.com/list1.html" title="新闻动态">新闻动态</a></li>
+                        <li rel="message.html"><a href="message.html" tppabs="http://tyslate.com/message.html" target="_blank" title="在线留言">在线留言</a></li>
+                        <li rel="view2-2.html"><a href="view2-2.html" tppabs="http://tyslate.com/view2-2.html" title="联系我们">联系我们</a></li>
+                    </ul>
+                </div><!-- end navbd-->
+            </div><!-- end navgrp-->
+        </div><!-- end topnbd-->
+
+        <div class="banner">
+            <div id="kinMaxShow">
+                <div><img src="uploadfile/201705/201705151105352682833.jpg" tppabs="http://tyslate.com/uploadfile/201705/201705151105352682833.jpg" /></div>
+                <div><img src="uploadfile/201705/201705031615557485283.jpg" tppabs="http://tyslate.com/uploadfile/201705/201705031615557485283.jpg" /></div>
+                <div><img src="uploadfile/201705/201705151105518876171.jpg" tppabs="http://tyslate.com/uploadfile/201705/201705151105518876171.jpg" /></div>
+            </div>
+        </div><!-- end banner-->
+
+        <div class="nsbg">
+            <div class="blue"></div>
+            <div class="nsbd">
+                <div class="toptel">
+                    <div class="tel">服务热线：<span>18017331699</span></div>
+                </div><!-- end toptel-->
+                <div class="notice">
+                    <div class="title">网站公告：</div>
+                    <div class="noticenr"><marquee  onmouseover="this.stop()" onMouseOut="this.start()" scrollamount="2"  >九江英格石业有限公司，欢迎您的咨询！</marquee></div>
+                </div><!-- end notice-->
+            </div><!-- end nsbd-->
+        </div><!-- end nsbg-->
+    </div> <!-- end header-->
 </html>

@@ -14,7 +14,7 @@ $("document").ready(function(){
 
 	})
 
-    $("#navChild a:last-child ").css("border-bottom","none") 
+    $("#navChild a:last-child ").css("border-bottom","none")
 
     
 

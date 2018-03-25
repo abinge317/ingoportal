@@ -47,7 +47,7 @@ a{text-decoration:none;outline:0;}
 	/*width:100px;*/height:62px;display:block;
 	color:#ffffff;font-size:14px; line-height:62px;
 	background:#a7071d;}
-#navChild{ 
+#navChild{
 	position:absolute;left:0px; top:62px; width:117px; z-index:99; display: none; z-index: 99999;
 	padding:4px 4px 0px 4px;background:#212d34;}
 #navChild a{
@@ -396,10 +396,10 @@ a{text-decoration:none;outline:0;}
 	color: #000;font-size: 22px;  line-height: 56px;}	
 .mainConTitle .mEnglish{
 	float: left;
-	width: 160px; height: 60px;
+	width: 170px; height: 60px;
 	color:#42525b; font-size: 24px;line-height: 60px; display: block; font-family: impact; text-transform: uppercase;}
 .mainConTitle .position {  
-	position: absolute; right: 0px; bottom:0px
+	position: absolute; right: 0px; bottom:0px;
 	height:60px;  
 	color: #666666; font-size: 14px;line-height:60px; }
 .mainConTitle .position a{color:#666;}
