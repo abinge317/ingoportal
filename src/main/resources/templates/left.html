@@ -17,12 +17,12 @@
         <div class="leftContact">
             <div class="leftTitle">联系<span>我们</span></div>
             <div class="contactnr">
-                <div class="contactTel">18017331699</div>
-                <p>联系人：龚经理</p>
-                <p>微　信：18017331699</p>
-                <p>电　话： 0792-2643134</p>
-                <p>邮　箱：sales@ingoco.com</p>
-                <p>地　址：九江市濂溪区浔南大道88号新湖庐山国际G4栋502</p>
+                <div class="contactTel"><span th:text="${application.basicInfo.telephone}">18017331699</span></div>
+                <p>联系人：<span th:text="${application.basicInfo.companyOwner}">龚经理</span></p>
+                <p>微　信：<span th:text="${application.basicInfo.telephone}">18017331699</span></p>
+                <p>电　话：<span th:text="${application.basicInfo.phone}">0792-2643134</span></p>
+                <p>邮　箱：<span th:text="${application.basicInfo.email}">sales@ingoco.com</span></p>
+                <p>地　址：<span th:text="${application.basicInfo.companyAddress}">九江市濂溪区浔南大道88号新湖庐山国际G4栋502</span></p>
                 <div class="clear"></div>
             </div><!-- end contactnr-->
         </div><!-- end leftContact-->

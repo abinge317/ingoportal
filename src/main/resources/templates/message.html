@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<div th:replace="head::head"></div>
+<body>
+<div th:replace="header::header"></div>
+
+<div class="sectionB">
+<style type="text/css">
+/*留言样式*/
+fieldset{ border:none}
+.msg_ul{width:580px;height:auto;overflow:hidden;margin:20px auto;list-style:none;}
+.msg_ul li{width:100%;height:auto;overflow:hidden;position:relative;margin-bottom:6px;}
+.msg_ul li p{width:90px; float:left;height:36px;font:14px/36px "microsoft yahei";color:#333;vertical-align: top;  text-align:right; margin: 0 6px 0 0;}
+.msg_ul li p span{color:red;margin-top:2px;vertical-align: middle;font-weight: bold}
+.msg_input{width:264px;height:34px;border:1px solid #d9d9d9;border-radius:2px;padding:0 10px;}
+.msg_textarea{border:1px solid #d9d9d9;border-radius:2px;padding:0 10px;}
+.msg_pin{width:164px;height:34px;border:1px solid #d9d9d9;border-radius:2px;padding:0 10px;float:left;}
+.msg_pin img{float:left;margin-left:14px;}
+.msg_textarea{width:264px;height:80px;border:1px solid #d9d9d9;border-radius:2px;padding:10px;resize: none}
+.msg_submit{width:286px;height:36px;margin:20px auto;border-radius:3px;border:0;text-align:center;font:18px/36px "microsoft yahei";color:#fff;cursor: pointer}
+</style>
+    <div class="main">
+        <div th:replace="left::left"></div>
+        <div class="mainCon">
+            <div class="mainConTitle">
+                <span class="mFont">在线留言</span>
+                <span class="mEnglish"> message </span>
+                <div class="position"><span>当前位置：</span><a href="index.htm" tppabs="http://tyslate.com/" title="首页">首页</a> > 在线留言</div>
+            </div>
+            <!-- end mainConTitle-->
+            <div class="mainContect">
+                <div class="con">
+                    <!--message -->
+                    <ul class="msg_ul">
+                        <form class="am-form am-form-feedback" method="POST" action="" tppabs="http://tyslate.com/put.php?name=2&phone=message&email=&source=&template=" id="pageForm" name="myForm">
+                            <fieldset>
+                                <li>
+                                    <p>
+                                        姓名： <span> *</span></p>
+                                    <input class="msg_input" name="name" placeholder="姓名" />
+                                </li>
+                                <li>
+                                    <p>
+                                        电话： <span> *</span></p>
+                                    <input class="msg_input" name="phone" placeholder="电话：" />
+                                </li>
+                                <li>
+                                    <p>
+                                        邮箱： <span> *</span></p>
+                                    <input class="msg_input" name="email" placeholder="邮箱：" />
+                                </li>
+                                <li>
+                                    <p>
+                                        留言内容：
+                                        <span class="c_red">*</span></p>
+                                    <textarea class="msg_textarea" name="info" placeholder="请输入留言" rows="5"></textarea>
+                                </li>
+                                <input type="hidden" name="source" value="2" />
+                                <input type="hidden" name="template" value="message" />
+                                <li>
+                                    <p></p>
+                                    <button type="submit" class="msg_submit common_bg" style="background:#105095;" id="submit">提 交</button>
+                                </li>
+                            </fieldset>
+                        </form>
+                    </ul>
+                    <!--message -->
+                </div>
+                <!-- end con-->
+            </div>
+            <!-- end mainContect-->
+        </div>
+        <!-- end main_con-->
+        <div class="clear"></div>
+    </div>
+    <!-- end main-->
+</div>
+<!-- end sectionbg-->
+<div th:replace="footer::footer"></div>
+<div th:replace="main_im::im"></div>
+<script>
+var _hmt = _hmt || [];
+(function() {
+var hm = document.createElement("script");
+hm.src = "../hm.baidu.com/hm.js-e9aa1dc0eeb047d3d995f80f9b65df8d"/*tpa=https://hm.baidu.com/hm.js?e9aa1dc0eeb047d3d995f80f9b65df8d*/;
+var s = document.getElementsByTagName("script")[0]; 
+s.parentNode.insertBefore(hm, s);
+})();
+</script></body>
+</html>
